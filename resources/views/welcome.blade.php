@@ -273,5 +273,20 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
+
+
+        <form action="/resultado" method="GET">
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+
+            <label>Teléfono:</label>
+            <input type="text" name="telefono">
+
+            <label>Dirección:</label>
+            <input type="text" name="direccion">
+
+            <button type="submit">Enviar</button>
+        </form>
+
     </body>
 </html>
