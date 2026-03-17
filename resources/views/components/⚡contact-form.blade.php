@@ -28,7 +28,7 @@ new class extends Component
             'estadoCivil' => $this->estadoCivil,
         ]);
 
-        return redirect('/result');
+        return redirect('/resultado');
     }
 };
 ?>
