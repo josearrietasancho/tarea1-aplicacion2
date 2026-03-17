@@ -6,8 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('resultado', function () {
-    return view('resultado');
+Route::get('result', function () {
+    return view('result');
 });
 
 Route::get('/', function () {
