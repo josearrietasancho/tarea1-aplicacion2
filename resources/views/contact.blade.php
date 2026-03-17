@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Formulario de Contacto</title>
+    <title>aplicacion-2</title>
 </head>
 <body>
     <h1>Formulario de Contacto</h1>
